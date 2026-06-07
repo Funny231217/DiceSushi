@@ -535,12 +535,69 @@ function renderTable() {
     updateTotalPrice();
 }
 
+function sleep(ms) {
+    return new Promise((resolve) => setTimeout(resolve, ms));
+}
+
+async function playNumberOneEffect() {
+    const effect = $("specialEffect");
+    const text = $("effectText");
+    const image = $("effectImage");
+
+    effect.classList.add("show");
+
+    text.className = "effect-text";
+    image.className = "effect-image";
+
+    text.textContent = "まずは、ありがとう";
+    text.classList.add("show");
+
+    await sleep(2600);
+
+    text.className = "effect-text hit";
+    text.textContent = "クリティカル";
+
+    await sleep(3000);
+
+    effect.classList.remove("show");
+    text.className = "effect-text";
+}
+
+async function playNumberHundredEffect() {
+    const effect = $("specialEffect");
+    const text = $("effectText");
+    const image = $("effectImage");
+
+    effect.classList.add("show");
+
+    text.className = "effect-text";
+    image.className = "effect-image";
+
+    await sleep(700);
+
+    image.classList.add("show");
+
+    await sleep(3500);
+
+    effect.classList.remove("show");
+    image.className = "effect-image";
+}
+
 // ---------------------
 // 抽選
 // ---------------------
 
 async function draw() {
     const n = Math.floor(Math.random() * 100) + 1;
+
+    if (n === 1) {
+        await playNumberOneEffect();
+    }
+
+    if (n === 100) {
+        await playNumberHundredEffect();
+    }
+
     const registered = table[n];
     const menu = getRegisteredMenu(registered);
 

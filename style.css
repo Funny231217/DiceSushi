@@ -145,3 +145,108 @@
         padding: 10px 12px;
     }
 }
+
+/* =========================
+   特別演出
+========================= */
+
+.special-effect {
+    position: fixed;
+    inset: 0;
+    z-index: 9999;
+    display: none;
+    justify-content: center;
+    align-items: center;
+    background: #000;
+    overflow: hidden;
+}
+
+    .special-effect.show {
+        display: flex;
+    }
+
+.effect-text {
+    color: #fff;
+    font-size: 28px;
+    font-weight: bold;
+    letter-spacing: 0.08em;
+    text-align: center;
+    opacity: 0;
+}
+
+    .effect-text.show {
+        animation: fadeText 2.2s ease forwards;
+    }
+
+    .effect-text.hit {
+        font-size: 44px;
+        color: #fff;
+        text-shadow: 0 0 8px #fff, 0 0 18px #ff0000, 0 0 30px #ffd700;
+        animation: pachinkoHit 1.2s ease-in-out infinite;
+    }
+
+.effect-image {
+    max-width: 90%;
+    max-height: 80%;
+    opacity: 0;
+    transform: scale(0.96);
+}
+
+    .effect-image.show {
+        animation: fadeImage 2.5s ease forwards;
+    }
+
+@keyframes fadeText {
+    0% {
+        opacity: 0;
+        transform: translateY(12px);
+    }
+
+    30%, 80% {
+        opacity: 1;
+        transform: translateY(0);
+    }
+
+    100% {
+        opacity: 0;
+    }
+}
+
+@keyframes pachinkoHit {
+    0% {
+        transform: scale(1) rotate(0deg);
+        filter: brightness(1);
+    }
+
+    25% {
+        transform: scale(1.08) rotate(-2deg);
+        filter: brightness(1.8);
+    }
+
+    50% {
+        transform: scale(1.16) rotate(2deg);
+        filter: brightness(2.4);
+    }
+
+    75% {
+        transform: scale(1.08) rotate(-1deg);
+        filter: brightness(1.8);
+    }
+
+    100% {
+        transform: scale(1) rotate(0deg);
+        filter: brightness(1);
+    }
+}
+
+@keyframes fadeImage {
+    0% {
+        opacity: 0;
+        transform: scale(0.92);
+    }
+
+    100% {
+        opacity: 1;
+        transform: scale(1);
+    }
+}
