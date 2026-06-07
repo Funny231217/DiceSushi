@@ -539,28 +539,35 @@ function sleep(ms) {
     return new Promise((resolve) => setTimeout(resolve, ms));
 }
 
+function sleep(ms) {
+    return new Promise((resolve) =>
+        setTimeout(resolve, ms)
+    );
+}
+
 async function playNumberOneEffect() {
     const effect = $("specialEffect");
-    const text = $("effectText");
     const image = $("effectImage");
 
     effect.classList.add("show");
 
-    text.className = "effect-text";
     image.className = "effect-image";
 
-    text.textContent = "まずは、ありがとう";
-    text.classList.add("show");
+    // 1番用画像
+    image.src = "images/one.png";
 
-    await sleep(2600);
+    // 少し間を空ける
+    await sleep(700);
 
-    text.className = "effect-text hit";
-    text.textContent = "クリティカル";
+    // フェード表示
+    image.classList.add("show");
 
-    await sleep(3000);
+    // 表示時間
+    await sleep(3500);
 
     effect.classList.remove("show");
-    text.className = "effect-text";
+
+    image.className = "effect-image";
 }
 
 async function playNumberHundredEffect() {
@@ -573,6 +580,9 @@ async function playNumberHundredEffect() {
     text.className = "effect-text";
     image.className = "effect-image";
 
+    // 100番用画像
+    image.src = "images/hundred.png";
+
     await sleep(700);
 
     image.classList.add("show");
@@ -580,6 +590,7 @@ async function playNumberHundredEffect() {
     await sleep(3500);
 
     effect.classList.remove("show");
+
     image.className = "effect-image";
 }
 
