@@ -1,0 +1,177 @@
+<!doctype html>
+<html lang="ja">
+<head>
+    <meta charset="utf-8">
+
+    <meta name="viewport"
+          content="width=device-width, initial-scale=1">
+
+    <title>くら寿司100番くじ</title>
+
+    <link rel="stylesheet"
+          href="style.css">
+
+    <link rel="manifest"
+          href="manifest.json">
+
+    <meta name="theme-color"
+          content="#b40000">
+</head>
+
+<body>
+    <header>
+        <h1>🍣 くら寿司100番くじ</h1>
+        <p>公式HTML取得データ対応版</p>
+    </header>
+
+    <main>
+        <nav>
+            <button data-tab="home"
+                    class="active">
+                抽選
+            </button>
+
+            <button data-tab="menu">
+                メニュー
+            </button>
+
+            <button data-tab="table">
+                登録表
+            </button>
+
+            <button data-tab="setting">
+                設定
+            </button>
+        </nav>
+
+        <!-- ホーム -->
+        <section id="home"
+                 class="tab active">
+            <button id="drawBtn"
+                    class="big">
+                寿司を食べる
+            </button>
+
+            <div id="result"
+                 class="result">
+                （ここに寿司を表示）
+            </div>
+
+            <div id="totalPrice"
+                 class="panel">
+                引いた合計金額：0円
+            </div>
+
+            <div class="panel">
+                <h2>抽選履歴</h2>
+
+                <button id="clearHistoryBtn">
+                    履歴を全消去
+                </button>
+
+                <div id="historyList">
+                    履歴なし
+                </div>
+            </div>
+        </section>
+
+        <!-- メニュー -->
+        <section id="menu"
+                 class="tab">
+            <div id="targetStatus"
+                 class="panel target-panel">
+                登録表で番号を選ぶと、ここに登録先が表示されます。
+            </div>
+
+            <div class="tools">
+                <input id="searchInput"
+                       placeholder="商品名で検索">
+
+                <select id="categorySelect">
+                </select>
+            </div>
+
+            <div id="menuList"
+                 class="cards">
+            </div>
+        </section>
+
+        <!-- 登録表 -->
+        <section id="table"
+                 class="tab">
+            <div class="panel table-help">
+                <h2>登録表</h2>
+                <p>
+                    登録したい番号の「この番号に登録」を押してから、
+                    メニューを選んでください。
+                    登録後は自動で次の番号に進みます。
+                </p>
+
+                <button id="startFirstEmptyBtn">
+                    最初の未登録番号から開始
+                </button>
+            </div>
+
+            <div id="tableList"
+                 class="grid">
+            </div>
+        </section>
+
+        <!-- 設定 -->
+        <section id="setting"
+                 class="tab">
+            <div class="panel">
+                <h2>使い方</h2>
+
+                <p>
+                    登録表で番号を選び、メニュー画面で商品を押すと、
+                    その番号に登録されます。
+                    登録後は次の番号が自動で選ばれます。
+                </p>
+
+                <p>
+                    1〜5番、96〜100番には任意のメッセージを登録できます。
+                </p>
+
+                <button id="copyShareUrlBtn">
+                    共有URLをコピー
+                </button>
+
+                <button id="resetBtn"
+                        class="danger">
+                    全リセット
+                </button>
+            </div>
+        </section>
+    </main>
+
+    <!-- 旧登録モーダル：予備として残す -->
+    <div id="modal"
+         class="modal">
+        <div>
+            <h2 id="modalName"></h2>
+
+            <p id="modalInfo"></p>
+
+            <input id="numberInput"
+                   type="number"
+                   min="1"
+                   max="100"
+                   placeholder="登録番号 1〜100">
+
+            <button id="saveNumberBtn">
+                この番号に登録
+            </button>
+
+            <button id="closeModal"
+                    class="sub">
+                閉じる
+            </button>
+        </div>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2"></script>
+    <script src="menu-data.js"></script>
+    <script src="app.js"></script>
+</body>
+</html>

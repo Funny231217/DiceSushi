@@ -1,0 +1,147 @@
+*{box-sizing:border-box}body{margin:0;background:#fff8f2;color:#171717;font-family:system-ui,-apple-system,"Noto Sans JP",sans-serif}header{background:#111;color:white;text-align:center;padding:18px 12px;border-bottom:6px solid #d71920}header h1{margin:0;font-size:24px}header p{margin:6px 0 0;color:#eee}main{max-width:520px;margin:auto;padding:12px 12px 86px}nav{position:sticky;top:0;z-index:5;display:grid;grid-template-columns:repeat(4,1fr);gap:6px;background:#fff8f2;padding:8px 0}button{border:0;border-radius:14px;background:#d71920;color:white;font-weight:700;padding:13px 10px;font-size:15px;box-shadow:0 3px 0 #8f1116}button.active{background:#111}button.sub{background:#555;box-shadow:0 3px 0 #333}.big{width:100%;font-size:22px;padding:22px;margin:18px 0}.danger{background:#111;box-shadow:0 3px 0 #000;width:100%;margin-top:18px}.tab{display:none}.tab.active{display:block}.result{background:white;border:3px solid #111;border-radius:20px;padding:22px;text-align:center;font-size:20px;line-height:1.7}.tools{display:grid;grid-template-columns:1fr 130px;gap:8px;margin:10px 0}input,select{width:100%;border:2px solid #111;border-radius:12px;padding:13px;background:white;font-size:16px}.cards{display:grid;gap:10px}.card,.row,.panel{background:white;border:2px solid #111;border-radius:16px;padding:13px;box-shadow:4px 4px 0 #eee}.card h3,.row h3{margin:0 0 6px}.meta{color:#555;font-size:14px}.card button{width:100%;margin-top:10px}.grid{display:grid;gap:8px}.row{display:grid;grid-template-columns:58px 1fr;gap:8px;align-items:center}.num{font-size:22px;font-weight:900;color:#d71920}.smallBtns{display:flex;gap:6px;margin-top:8px}.smallBtns button{flex:1;padding:9px;font-size:13px}.empty{color:#777}.modal{position:fixed;inset:0;background:rgba(0,0,0,.55);display:none;align-items:end;padding:12px;z-index:10}.modal.show{display:flex}.modal>div{background:white;width:100%;max-width:520px;margin:auto;border-radius:22px;padding:18px;border:3px solid #111}.modal button{width:100%;margin-top:10px}code{background:#eee;padding:2px 4px;border-radius:4px}
+
+/* 登録作業改善 */
+.target-panel {
+  border-color: #d71920;
+  background: #fff;
+  margin-bottom: 10px;
+}
+
+.target-actions {
+  margin-top: 10px;
+}
+
+.table-help {
+  margin-bottom: 10px;
+}
+
+.table-help p {
+  margin: 6px 0 12px;
+  color: #555;
+  line-height: 1.6;
+}
+
+.selected-row {
+  outline: 4px solid #d71920;
+  background: #fff1f1;
+}
+
+.history-item {
+  display: grid;
+  grid-template-columns: auto 1fr auto;
+  gap: 8px;
+  align-items: center;
+  padding: 8px 0;
+  border-bottom: 1px solid #eee;
+}
+
+.history-item button {
+  padding: 7px 9px;
+  font-size: 12px;
+  box-shadow: none;
+  background: #555;
+}
+
+.toast {
+  position: fixed;
+  left: 12px;
+  right: 12px;
+  bottom: 18px;
+  z-index: 30;
+  max-width: 520px;
+  margin: auto;
+  background: #111;
+  color: #fff;
+  border-radius: 16px;
+  padding: 14px 16px;
+  text-align: center;
+  font-weight: 700;
+  box-shadow: 0 6px 20px rgba(0, 0, 0, 0.3);
+}
+
+/* =========================
+   抽選画面 余白改善
+========================= */
+#home {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    padding: 16px;
+}
+
+/* ランダムボタン */
+#drawBtn {
+    margin-bottom: 4px;
+}
+
+/* 抽選結果 */
+.result {
+    margin-top: 8px;
+    padding: 20px;
+    border-radius: 16px;
+    background: #fff;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.08);
+    line-height: 1.8;
+}
+
+/* 合計金額 */
+#totalPrice {
+    margin-top: 4px;
+    padding: 16px;
+}
+
+/* パネル共通 */
+.panel {
+    margin-top: 8px;
+    padding: 16px;
+    border-radius: 16px;
+    background: #fff;
+}
+
+/* 履歴エリア */
+#historyList {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin-top: 12px;
+}
+
+/* 履歴1件 */
+.history-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 12px;
+    padding: 12px 14px;
+    border-radius: 12px;
+    background: #f7f7f7;
+}
+
+    /* 履歴削除ボタン */
+    .history-item button {
+        flex-shrink: 0;
+    }
+
+/* 履歴全消去 */
+#clearHistoryBtn {
+    margin-top: 8px;
+    margin-bottom: 12px;
+}
+
+/* スマホ向け余白 */
+@media (max-width: 768px) {
+    #home {
+        gap: 14px;
+        padding: 14px;
+    }
+
+    .panel,
+    .result {
+        border-radius: 14px;
+        padding: 14px;
+    }
+
+    .history-item {
+        padding: 10px 12px;
+    }
+}
