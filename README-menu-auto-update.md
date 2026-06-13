@@ -1,6 +1,13 @@
 # くら寿司メニュー自動更新
 
-このプロジェクトは `scripts/fetch-kura-menu.js` でくら寿司公式ページからメニューを取得し、`menu-data.js` を更新します。
+このプロジェクトは、くら寿司公式メニューHTMLから商品情報を取得して `menu-data.js` を更新します。
+
+## 仕組み
+
+- アプリ本体は `menu-data.js` を読み込みます。
+- `scripts/fetch-kura-menu.js` が公式ページから商品名・価格・カロリー・カテゴリを抽出します。
+- GitHub Actions が毎日自動実行し、変更があれば `menu-data.js` をコミットします。
+- Vercel と GitHub を連携していれば、コミット後に自動デプロイされます。
 
 ## ローカルで手動更新
 
@@ -9,12 +16,25 @@ npm install
 npm run update-menu
 ```
 
-## GitHub Actionsで自動更新
+成功すると以下のように表示されます。
 
-`.github/workflows/update-kura-menu.yml` により、毎日 04:00 JST に自動で更新されます。
+```text
+くら寿司メニュー取得開始...
+取得完了！
+商品数: 207
+```
 
-更新がある場合は GitHub Actions が `menu-data.js` をコミットします。VercelとGitHubを連携していれば、そのコミットをきっかけにVercelも自動再デプロイされます。
+## GitHub Actionsの手動実行
+
+GitHub のリポジトリで以下を開きます。
+
+```text
+Actions
+→ Update Kura Sushi menu
+→ Run workflow
+```
 
 ## 注意
 
-公式HTMLの構造が変わると取得に失敗する可能性があります。失敗時は GitHub Actions のログを確認してください。
+くら寿司公式ページのHTML構造が変わると、抽出に失敗する可能性があります。
+失敗した場合は `scripts/fetch-kura-menu.js` のセレクタを修正してください。
