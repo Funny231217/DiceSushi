@@ -1,5 +1,5 @@
 // このファイルは scripts/fetch-kura-menu.js により自動生成されます。
-// Last updated: 2026-06-14T20:12:30.865Z
+// Last updated: 2026-06-15T21:37:52.439Z
 const KURA_MENU = [
   {
     "id": 1,
@@ -409,65 +409,65 @@ const KURA_MENU = [
   },
   {
     "id": 59,
-    "name": "熟成中とろ一貫",
-    "price": 110,
-    "calories": 72,
-    "category": "にぎり一貫"
-  },
-  {
-    "id": 60,
     "name": "大切りとろ〆さば（一貫）",
     "price": 115,
     "calories": 69,
     "category": "にぎり一貫"
   },
   {
-    "id": 61,
+    "id": 60,
     "name": "超熟成 真鯛(一貫)",
     "price": 115,
     "calories": 43,
     "category": "にぎり一貫"
   },
   {
-    "id": 62,
+    "id": 61,
     "name": "超熟成 まぐろ（一貫）",
     "price": 115,
     "calories": 49,
     "category": "にぎり一貫"
   },
   {
-    "id": 63,
+    "id": 62,
     "name": "超熟成 まふぐ(一貫)",
     "price": 115,
     "calories": 36,
     "category": "にぎり一貫"
   },
   {
-    "id": 64,
+    "id": 63,
     "name": "熟成ふぐ（一貫）",
     "price": 115,
     "calories": 39,
     "category": "にぎり一貫"
   },
   {
-    "id": 65,
+    "id": 64,
     "name": "大切り はまち(一貫)",
     "price": 120,
     "calories": 60,
     "category": "にぎり一貫"
   },
   {
-    "id": 66,
+    "id": 65,
     "name": "アトランティック 生サーモン（一貫）",
     "price": 160,
     "calories": 56,
     "category": "にぎり一貫"
   },
   {
-    "id": 67,
+    "id": 66,
     "name": "赤えび（一貫）",
     "price": 180,
     "calories": 46,
+    "category": "にぎり一貫"
+  },
+  {
+    "id": 67,
+    "name": "熟成中とろ（一貫）",
+    "price": 200,
+    "calories": 72,
     "category": "にぎり一貫"
   },
   {
