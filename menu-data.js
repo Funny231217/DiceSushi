@@ -1,5 +1,5 @@
 // このファイルは scripts/fetch-kura-menu.js により自動生成されます。
-// Last updated: 2026-06-15T21:37:52.439Z
+// Last updated: 2026-06-16T21:37:32.448Z
 const KURA_MENU = [
   {
     "id": 1,
@@ -1130,349 +1130,342 @@ const KURA_MENU = [
   },
   {
     "id": 162,
-    "name": "かにクリームコロッケ",
-    "price": 250,
-    "calories": 254,
-    "category": "サイドメニュー"
-  },
-  {
-    "id": 163,
     "name": "なんこつ唐揚げ",
     "price": 280,
     "calories": 150,
     "category": "サイドメニュー"
   },
   {
-    "id": 164,
+    "id": 163,
     "name": "チキン南蛮",
     "price": 400,
     "calories": 372,
     "category": "サイドメニュー"
   },
   {
-    "id": 165,
+    "id": 164,
     "name": "スーパードライ(生)",
     "price": 630,
     "calories": 160,
     "category": "サイドメニュー"
   },
   {
-    "id": 166,
+    "id": 165,
     "name": "マルエフ(生)",
     "price": 630,
     "calories": 156,
     "category": "サイドメニュー"
   },
   {
-    "id": 167,
+    "id": 166,
     "name": "ノンアルコールビール",
     "price": 500,
     "calories": 27,
     "category": "サイドメニュー"
   },
   {
-    "id": 168,
+    "id": 167,
     "name": "冷酒無添蔵",
     "price": 690,
     "calories": 200,
     "category": "サイドメニュー"
   },
   {
-    "id": 169,
+    "id": 168,
     "name": "純米大吟醸 黄桜S",
     "price": 780,
     "calories": 184,
     "category": "サイドメニュー"
   },
   {
-    "id": 170,
+    "id": 169,
     "name": "ハイボール",
     "price": 530,
     "calories": 69,
     "category": "サイドメニュー"
   },
   {
-    "id": 171,
+    "id": 170,
     "name": "恋色ももタルト",
     "price": 550,
     "calories": 323,
     "category": "デザート"
   },
   {
-    "id": 172,
+    "id": 171,
     "name": "七海と五条のスウィート＆ビターティラミス",
     "price": 530,
     "calories": 254,
     "category": "デザート"
   },
   {
-    "id": 173,
+    "id": 172,
     "name": "ショコラドームケーキ",
     "price": 350,
     "calories": 200,
     "category": "デザート"
   },
   {
-    "id": 174,
+    "id": 173,
     "name": "ヨアボ",
     "price": 380,
     "calories": 138,
     "category": "デザート"
   },
   {
-    "id": 175,
+    "id": 174,
     "name": "絞りたてシュークリーム",
     "price": 330,
     "calories": 227,
     "category": "デザート"
   },
   {
-    "id": 176,
+    "id": 175,
     "name": "バスクチーズケーキ",
     "price": 330,
     "calories": 157,
     "category": "デザート"
   },
   {
-    "id": 177,
+    "id": 176,
     "name": "感動のぷりん",
     "price": 240,
     "calories": 197,
     "category": "デザート"
   },
   {
-    "id": 178,
+    "id": 177,
     "name": "ルカイマット",
     "price": 240,
     "calories": 396,
     "category": "デザート"
   },
   {
-    "id": 179,
+    "id": 178,
     "name": "エッグタルト",
     "price": 240,
     "calories": 171,
     "category": "デザート"
   },
   {
-    "id": 180,
+    "id": 179,
     "name": "カットパイン",
     "price": 220,
     "calories": 43,
     "category": "デザート"
   },
   {
-    "id": 181,
+    "id": 180,
     "name": "完熟アップルマンゴー",
     "price": 440,
     "calories": 88,
     "category": "デザート"
   },
   {
-    "id": 182,
+    "id": 181,
     "name": "ミルキーミルクレープ",
     "price": 330,
     "calories": 272,
     "category": "デザート"
   },
   {
-    "id": 183,
+    "id": 182,
     "name": "ミルクレープ",
     "price": 330,
     "calories": 230,
     "category": "デザート"
   },
   {
-    "id": 184,
+    "id": 183,
     "name": "チョコケーキ",
     "price": 200,
     "calories": 107,
     "category": "デザート"
   },
   {
-    "id": 185,
+    "id": 184,
     "name": "チーズケーキ",
     "price": 200,
     "calories": 81,
     "category": "デザート"
   },
   {
-    "id": 186,
+    "id": 185,
     "name": "プリンタルト",
     "price": 200,
     "calories": 156,
     "category": "デザート"
   },
   {
-    "id": 187,
+    "id": 186,
     "name": "昔ながらの塩豆大福",
     "price": 115,
     "calories": 126,
     "category": "デザート"
   },
   {
-    "id": 188,
+    "id": 187,
     "name": "大学芋スティック",
     "price": 140,
     "calories": 138,
     "category": "デザート"
   },
   {
-    "id": 189,
+    "id": 188,
     "name": "京わらびもち",
     "price": 140,
     "calories": 168,
     "category": "デザート"
   },
   {
-    "id": 190,
+    "id": 189,
     "name": "くらだんご みたらし",
     "price": 170,
     "calories": 141,
     "category": "デザート"
   },
   {
-    "id": 191,
+    "id": 190,
     "name": "くらだんご あんこ",
     "price": 200,
     "calories": 159,
     "category": "デザート"
   },
   {
-    "id": 192,
+    "id": 191,
     "name": "リッチミルクアイス",
     "price": 330,
     "calories": 145,
     "category": "デザート"
   },
   {
-    "id": 193,
+    "id": 192,
     "name": "チョコアイス",
     "price": 210,
     "calories": 42,
     "category": "デザート"
   },
   {
-    "id": 194,
+    "id": 193,
     "name": "巨峰シャーベット",
     "price": 210,
     "calories": 53,
     "category": "デザート"
   },
   {
-    "id": 195,
+    "id": 194,
     "name": "夢のべジふわ雪® いちご＆トマト",
     "price": 250,
     "calories": 106,
     "category": "デザート"
   },
   {
-    "id": 196,
+    "id": 195,
     "name": "夢のべジふわ雪® オレンジ＆キャロット",
     "price": 250,
     "calories": 86,
     "category": "デザート"
   },
   {
-    "id": 197,
+    "id": 196,
     "name": "夢のべジふわ雪® グリーンスムージー",
     "price": 250,
     "calories": 89,
     "category": "デザート"
   },
   {
-    "id": 198,
+    "id": 197,
     "name": "夢のふわ雪® 豊潤いちご",
     "price": 440,
     "calories": 130,
     "category": "デザート"
   },
   {
-    "id": 199,
+    "id": 198,
     "name": "シャインマスカット・いちごグミ",
     "price": 240,
     "calories": 143,
     "category": "デザート"
   },
   {
-    "id": 200,
+    "id": 199,
     "name": "ぶどう・みかんグミ",
     "price": 240,
     "calories": 143,
     "category": "デザート"
   },
   {
-    "id": 201,
+    "id": 200,
     "name": "豆乳生まれのカルピス®",
     "price": 190,
     "calories": 63,
     "category": "デザート"
   },
   {
-    "id": 202,
+    "id": 201,
     "name": "【無添】コーラ",
     "price": 250,
     "calories": 108,
     "category": "デザート"
   },
   {
-    "id": 203,
+    "id": 202,
     "name": "ぶどうサイダー",
     "price": 250,
     "calories": 62,
     "category": "デザート"
   },
   {
-    "id": 204,
+    "id": 203,
     "name": "オレンジ",
     "price": 250,
     "calories": 75,
     "category": "デザート"
   },
   {
-    "id": 205,
+    "id": 204,
     "name": "りんご",
     "price": 250,
     "calories": 82,
     "category": "デザート"
   },
   {
-    "id": 206,
+    "id": 205,
     "name": "宇治抹茶入り緑茶",
     "price": 170,
     "calories": 3,
     "category": "デザート"
   },
   {
-    "id": 207,
+    "id": 206,
     "name": "乳酸菌ウォーター",
     "price": 170,
     "calories": 76,
     "category": "デザート"
   },
   {
-    "id": 208,
+    "id": 207,
     "name": "プレミアホット珈琲",
     "price": 190,
     "calories": 28,
     "category": "デザート"
   },
   {
-    "id": 209,
+    "id": 208,
     "name": "プレミアアイス珈琲",
     "price": 190,
     "calories": 36,
     "category": "デザート"
   },
   {
-    "id": 210,
+    "id": 209,
     "name": "プレミアホットラテ",
     "price": 220,
     "calories": 83,
     "category": "デザート"
   },
   {
-    "id": 211,
+    "id": 210,
     "name": "プレミアアイスラテ",
     "price": 220,
     "calories": 92,
