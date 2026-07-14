@@ -1,5 +1,5 @@
 // このファイルは scripts/fetch-kura-menu.js により自動生成されます。
-// Last updated: 2026-07-13T20:04:08.365Z
+// Last updated: 2026-07-14T20:02:15.178Z
 const KURA_MENU = [
   {
     "id": 1,
