@@ -1,5 +1,5 @@
 // このファイルは scripts/fetch-kura-menu.js により自動生成されます。
-// Last updated: 2026-07-18T19:56:39.229Z
+// Last updated: 2026-07-19T19:59:24.057Z
 const KURA_MENU = [
   {
     "id": 1,
@@ -1361,90 +1361,76 @@ const KURA_MENU = [
   },
   {
     "id": 195,
-    "name": "シャインマスカット・いちごグミ",
-    "price": 240,
-    "calories": 143,
-    "category": "デザート"
-  },
-  {
-    "id": 196,
-    "name": "ぶどう・みかんグミ",
-    "price": 240,
-    "calories": 143,
-    "category": "デザート"
-  },
-  {
-    "id": 197,
     "name": "豆乳生まれのカルピス®",
     "price": 190,
     "calories": 63,
     "category": "デザート"
   },
   {
-    "id": 198,
+    "id": 196,
     "name": "【無添】コーラ",
     "price": 250,
     "calories": 108,
     "category": "デザート"
   },
   {
-    "id": 199,
+    "id": 197,
     "name": "ぶどうサイダー",
     "price": 250,
     "calories": 62,
     "category": "デザート"
   },
   {
-    "id": 200,
+    "id": 198,
     "name": "オレンジ",
     "price": 250,
     "calories": 75,
     "category": "デザート"
   },
   {
-    "id": 201,
+    "id": 199,
     "name": "りんご",
     "price": 250,
     "calories": 82,
     "category": "デザート"
   },
   {
-    "id": 202,
+    "id": 200,
     "name": "宇治抹茶入り緑茶",
     "price": 170,
     "calories": 3,
     "category": "デザート"
   },
   {
-    "id": 203,
+    "id": 201,
     "name": "乳酸菌ウォーター",
     "price": 170,
     "calories": 76,
     "category": "デザート"
   },
   {
-    "id": 204,
+    "id": 202,
     "name": "プレミアホット珈琲",
     "price": 190,
     "calories": 28,
     "category": "デザート"
   },
   {
-    "id": 205,
+    "id": 203,
     "name": "プレミアアイス珈琲",
     "price": 190,
     "calories": 36,
     "category": "デザート"
   },
   {
-    "id": 206,
+    "id": 204,
     "name": "プレミアホットラテ",
     "price": 220,
     "calories": 83,
     "category": "デザート"
   },
   {
-    "id": 207,
+    "id": 205,
     "name": "プレミアアイスラテ",
     "price": 220,
     "calories": 92,
