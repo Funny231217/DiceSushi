@@ -1,5 +1,5 @@
 // このファイルは scripts/fetch-kura-menu.js により自動生成されます。
-// Last updated: 2026-08-07T00:34:33.762Z
+// Last updated: 2026-08-07T19:41:04.959Z
 const KURA_MENU = [
   {
     "id": 1,
@@ -1396,7 +1396,7 @@ const KURA_MENU = [
   },
   {
     "id": 200,
-    "name": "夢のふわ雪 ぶどう",
+    "name": "夢のふわ雪® ぶどう",
     "price": 440,
     "calories": 271,
     "category": "デザート"
