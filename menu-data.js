@@ -1,137 +1,137 @@
 // このファイルは scripts/fetch-kura-menu.js により自動生成されます。
-// Last updated: 2026-10-29T23:01:14.406Z
+// Last updated: 2026-10-30T22:41:39.544Z
 const KURA_MENU = [
   {
     "id": 1,
+    "name": "超熟成 かれい",
+    "price": 110,
+    "calories": 76,
+    "category": "にぎり"
+  },
+  {
+    "id": 2,
+    "name": "こはだ",
+    "price": 110,
+    "calories": 79,
+    "category": "にぎり"
+  },
+  {
+    "id": 3,
     "name": "熟成びんちょうまぐろ",
     "price": 110,
     "calories": 82,
     "category": "にぎり"
   },
   {
-    "id": 2,
+    "id": 4,
     "name": "えび",
     "price": 110,
     "calories": 74,
     "category": "にぎり"
   },
   {
-    "id": 3,
-    "name": "活〆パンガシウス",
-    "price": 110,
-    "calories": 75,
-    "category": "にぎり"
-  },
-  {
-    "id": 4,
+    "id": 5,
     "name": "ねぎまぐろ",
     "price": 110,
     "calories": 99,
     "category": "にぎり"
   },
   {
-    "id": 5,
+    "id": 6,
     "name": "いか",
     "price": 110,
     "calories": 73,
     "category": "にぎり"
   },
   {
-    "id": 6,
+    "id": 7,
     "name": "極旨カニカマ",
     "price": 110,
     "calories": 84,
     "category": "にぎり"
   },
   {
-    "id": 7,
+    "id": 8,
     "name": "サーモン・えび",
     "price": 110,
     "calories": 84,
     "category": "にぎり"
   },
   {
-    "id": 8,
+    "id": 9,
     "name": "サーモン・熟成びんちょうまぐろ",
     "price": 110,
     "calories": 88,
     "category": "にぎり"
   },
   {
-    "id": 9,
+    "id": 10,
     "name": "サーモン・たまご焼き",
     "price": 110,
     "calories": 104,
     "category": "にぎり"
   },
   {
-    "id": 10,
+    "id": 11,
     "name": "たまご焼き",
     "price": 110,
     "calories": 114,
     "category": "にぎり"
   },
   {
-    "id": 11,
+    "id": 12,
+    "name": "豚カルビ",
+    "price": 110,
+    "calories": 92,
+    "category": "にぎり"
+  },
+  {
+    "id": 13,
     "name": "ハンバーグ",
     "price": 110,
     "calories": 111,
     "category": "にぎり"
   },
   {
-    "id": 12,
+    "id": 14,
     "name": "熟成まぐろ",
     "price": 120,
     "calories": 82,
     "category": "にぎり"
   },
   {
-    "id": 13,
+    "id": 15,
+    "name": "サーモンアボカドチーズ",
+    "price": 120,
+    "calories": 111,
+    "category": "にぎり"
+  },
+  {
+    "id": 16,
     "name": "まぐろアボカドチーズ",
     "price": 120,
     "calories": 125,
     "category": "にぎり"
   },
   {
-    "id": 14,
+    "id": 17,
     "name": "サーモン",
     "price": 120,
     "calories": 93,
     "category": "にぎり"
   },
   {
-    "id": 15,
-    "name": "ゆずかれい",
-    "price": 120,
-    "calories": 90,
-    "category": "にぎり"
-  },
-  {
-    "id": 16,
+    "id": 18,
     "name": "生えび",
     "price": 120,
     "calories": 78,
     "category": "にぎり"
   },
   {
-    "id": 17,
-    "name": "甘えび",
-    "price": 120,
-    "calories": 77,
-    "category": "にぎり"
-  },
-  {
-    "id": 18,
+    "id": 19,
     "name": "大盛り貝柱",
     "price": 120,
     "calories": 79,
-    "category": "にぎり"
-  },
-  {
-    "id": 19,
-    "name": "赤貝",
-    "price": 120,
-    "calories": 68,
     "category": "にぎり"
   },
   {
@@ -178,16 +178,16 @@ const KURA_MENU = [
   },
   {
     "id": 26,
-    "name": "旨だれ牛カルビ",
+    "name": "なすうま煮",
     "price": 120,
-    "calories": 102,
+    "calories": 96,
     "category": "にぎり"
   },
   {
     "id": 27,
-    "name": "なすうま煮",
-    "price": 120,
-    "calories": 96,
+    "name": "甘えび",
+    "price": 130,
+    "calories": 77,
     "category": "にぎり"
   },
   {
@@ -206,107 +206,107 @@ const KURA_MENU = [
   },
   {
     "id": 30,
+    "name": "あぶり天然ぶりゆず味噌",
+    "price": 140,
+    "calories": 112,
+    "category": "にぎり"
+  },
+  {
+    "id": 31,
     "name": "ビントロ",
     "price": 140,
     "calories": 83,
     "category": "にぎり"
   },
   {
-    "id": 31,
+    "id": 32,
+    "name": "旨だれ牛カルビ",
+    "price": 140,
+    "calories": 102,
+    "category": "にぎり"
+  },
+  {
+    "id": 33,
+    "name": "赤貝",
+    "price": 160,
+    "calories": 68,
+    "category": "にぎり"
+  },
+  {
+    "id": 34,
     "name": "はまち",
     "price": 160,
     "calories": 118,
     "category": "にぎり"
   },
   {
-    "id": 32,
+    "id": 35,
     "name": "オニオンサーモン",
     "price": 160,
     "calories": 116,
     "category": "にぎり"
   },
   {
-    "id": 33,
+    "id": 36,
     "name": "えびアボカド",
     "price": 160,
     "calories": 118,
     "category": "にぎり"
   },
   {
-    "id": 34,
+    "id": 37,
     "name": "いか天にぎり",
     "price": 160,
     "calories": 201,
     "category": "にぎり"
   },
   {
-    "id": 35,
+    "id": 38,
     "name": "あぶりえびマヨグラタン風",
     "price": 180,
     "calories": 186,
     "category": "にぎり"
   },
   {
-    "id": 36,
+    "id": 39,
     "name": "あぶりチーズ豚カルビ",
     "price": 180,
     "calories": 146,
     "category": "にぎり"
   },
   {
-    "id": 37,
+    "id": 40,
     "name": "あぶりえびチーズ",
     "price": 180,
     "calories": 97,
     "category": "にぎり"
   },
   {
-    "id": 38,
+    "id": 41,
     "name": "あぶりチーズサーモン",
     "price": 180,
     "calories": 120,
     "category": "にぎり"
   },
   {
-    "id": 39,
+    "id": 42,
     "name": "濃厚チェダーチーズ天にぎり",
     "price": 180,
     "calories": 167,
     "category": "にぎり"
   },
   {
-    "id": 40,
-    "name": "えび天にぎり",
-    "price": 180,
-    "calories": 135,
-    "category": "にぎり"
-  },
-  {
-    "id": 41,
-    "name": "大葉えんがわ（かれい）（関西）",
-    "price": 180,
-    "calories": 94,
-    "category": "にぎり"
-  },
-  {
-    "id": 42,
-    "name": "大葉えんがわ（かれい）（関東）",
-    "price": 180,
-    "calories": 94,
-    "category": "にぎり"
-  },
-  {
     "id": 43,
-    "name": "えんがわ（かれい）（関西）",
+    "name": "あぶりチーズチキン",
     "price": 180,
-    "calories": 94,
+    "calories": 162,
     "category": "にぎり"
   },
   {
     "id": 44,
-    "name": "えんがわ（かれい）（関東）",
+    "name": "えび天にぎり",
     "price": 180,
-    "calories": 94,
+    "calories": 135,
     "category": "にぎり"
   },
   {
@@ -360,1112 +360,1217 @@ const KURA_MENU = [
   },
   {
     "id": 52,
-    "name": "超熟成 まぐろ（一貫）",
-    "price": 110,
-    "calories": 49,
-    "category": "にぎり一貫"
+    "name": "咎人のえびカレータルタル",
+    "price": 230,
+    "calories": 198,
+    "category": "にぎり"
   },
   {
     "id": 53,
-    "name": "熟成ふぐ（一貫）",
-    "price": 110,
-    "calories": 39,
-    "category": "にぎり一貫"
+    "name": "うなぎ",
+    "price": 230,
+    "calories": 118,
+    "category": "にぎり"
   },
   {
     "id": 54,
-    "name": "大葉えんがわ かれい（一貫）（関西）",
-    "price": 110,
-    "calories": 47,
-    "category": "にぎり一貫"
+    "name": "宮崎牛てんこもり",
+    "price": 250,
+    "calories": 188,
+    "category": "にぎり"
   },
   {
     "id": 55,
-    "name": "大葉えんがわ かれい（一貫）（関東）",
-    "price": 110,
-    "calories": 47,
-    "category": "にぎり一貫"
+    "name": "【愛媛県産】活〆ぶりひら",
+    "price": 270,
+    "calories": 80,
+    "category": "にぎり"
   },
   {
     "id": 56,
-    "name": "えんがわ かれい（一貫）（関西）",
-    "price": 110,
-    "calories": 47,
-    "category": "にぎり一貫"
+    "name": "丸ずわいがに二種盛り",
+    "price": 380,
+    "calories": 75,
+    "category": "にぎり"
   },
   {
     "id": 57,
-    "name": "えんがわ かれい（一貫）（関東）",
+    "name": "超熟成 金目鯛（一貫）",
     "price": 110,
-    "calories": 47,
+    "calories": 37,
     "category": "にぎり一貫"
   },
   {
     "id": 58,
-    "name": "大葉生たこ（一貫）",
+    "name": "超熟成 赤えび（一貫）",
     "price": 110,
-    "calories": 36,
+    "calories": 42,
     "category": "にぎり一貫"
   },
   {
     "id": 59,
-    "name": "生たこ（一貫）",
+    "name": "超熟成 びんちょう（一貫）",
     "price": 110,
-    "calories": 36,
+    "calories": 46,
     "category": "にぎり一貫"
   },
   {
     "id": 60,
-    "name": "真たこ（一貫）",
+    "name": "あぶりふぐ（一貫）",
     "price": 110,
     "calories": 38,
     "category": "にぎり一貫"
   },
   {
     "id": 61,
+    "name": "大葉生たこ（一貫）",
+    "price": 110,
+    "calories": 36,
+    "category": "にぎり一貫"
+  },
+  {
+    "id": 62,
+    "name": "生たこ（一貫）",
+    "price": 110,
+    "calories": 36,
+    "category": "にぎり一貫"
+  },
+  {
+    "id": 63,
+    "name": "真たこ（一貫）",
+    "price": 110,
+    "calories": 38,
+    "category": "にぎり一貫"
+  },
+  {
+    "id": 64,
     "name": "あじ（一貫）",
     "price": 110,
     "calories": 43,
     "category": "にぎり一貫"
   },
   {
-    "id": 62,
+    "id": 65,
     "name": "とろサーモン（一貫）",
     "price": 110,
     "calories": 49,
     "category": "にぎり一貫"
   },
   {
-    "id": 63,
+    "id": 66,
     "name": "焼きはらす（一貫）",
     "price": 110,
     "calories": 46,
     "category": "にぎり一貫"
   },
   {
-    "id": 64,
+    "id": 67,
     "name": "あぶりチーズサーモン（一貫）",
     "price": 110,
     "calories": 60,
     "category": "にぎり一貫"
   },
   {
-    "id": 65,
+    "id": 68,
     "name": "あぶりチーズ豚カルビ（一貫）",
     "price": 110,
     "calories": 73,
     "category": "にぎり一貫"
   },
   {
-    "id": 66,
-    "name": "あぶりえびマヨグラタン（一貫）",
+    "id": 69,
+    "name": "あぶりえびマヨグラタン風（一貫）",
     "price": 110,
     "calories": 93,
     "category": "にぎり一貫"
   },
   {
-    "id": 67,
+    "id": 70,
     "name": "えび天にぎり（一貫）",
     "price": 110,
     "calories": 68,
     "category": "にぎり一貫"
   },
   {
-    "id": 68,
-    "name": "濃厚チェダーチーズ天（一貫）",
+    "id": 71,
+    "name": "濃厚チェダーチーズ天にぎり（一貫）",
     "price": 110,
     "calories": 84,
     "category": "にぎり一貫"
   },
   {
-    "id": 69,
+    "id": 72,
+    "name": "ホイコーローにぎり（一貫）",
+    "price": 120,
+    "calories": 63,
+    "category": "にぎり一貫"
+  },
+  {
+    "id": 73,
     "name": "大切りとろ〆さば（一貫）",
     "price": 120,
     "calories": 69,
     "category": "にぎり一貫"
   },
   {
-    "id": 70,
+    "id": 74,
     "name": "大切り はまち(一貫)",
     "price": 120,
     "calories": 60,
     "category": "にぎり一貫"
   },
   {
-    "id": 71,
+    "id": 75,
     "name": "熟成 真鯛(一貫)",
     "price": 140,
     "calories": 41,
     "category": "にぎり一貫"
   },
   {
-    "id": 72,
+    "id": 76,
+    "name": "生サーモン(一貫)",
+    "price": 160,
+    "calories": 49,
+    "category": "にぎり一貫"
+  },
+  {
+    "id": 77,
+    "name": "活〆穴子（一貫）",
+    "price": 180,
+    "calories": 51,
+    "category": "にぎり一貫"
+  },
+  {
+    "id": 78,
     "name": "赤えび（一貫）",
     "price": 180,
     "calories": 46,
     "category": "にぎり一貫"
   },
   {
-    "id": 73,
-    "name": "熟成中とろ（一貫）",
+    "id": 79,
+    "name": "みなみまぐろ中とろ(一貫)",
     "price": 200,
     "calories": 72,
     "category": "にぎり一貫"
   },
   {
-    "id": 74,
-    "name": "大粒たいら貝(一貫)",
-    "price": 270,
-    "calories": 51,
+    "id": 80,
+    "name": "リトテツのユーリンチー寿司",
+    "price": 230,
+    "calories": 97,
     "category": "にぎり一貫"
   },
   {
-    "id": 75,
-    "name": "特大切りうなぎ（一貫）",
-    "price": 270,
-    "calories": 109,
+    "id": 81,
+    "name": "超熟成とらふぐ（一貫）",
+    "price": 240,
+    "calories": 38,
     "category": "にぎり一貫"
   },
   {
-    "id": 76,
-    "name": "特大切り 活〆穴子（一貫）",
+    "id": 82,
+    "name": "ほたて（一貫）",
     "price": 270,
-    "calories": 64,
+    "calories": 42,
     "category": "にぎり一貫"
   },
   {
-    "id": 77,
+    "id": 83,
+    "name": "本ずわいがに(一貫)",
+    "price": 280,
+    "calories": 36,
+    "category": "にぎり一貫"
+  },
+  {
+    "id": 84,
+    "name": "厳選大とろ（一貫）",
+    "price": 380,
+    "calories": 75,
+    "category": "にぎり一貫"
+  },
+  {
+    "id": 85,
+    "name": "長崎和牛にぎり（一貫）",
+    "price": 380,
+    "calories": 66,
+    "category": "にぎり一貫"
+  },
+  {
+    "id": 86,
+    "name": "海鮮うに入り軍艦（一貫）",
+    "price": 110,
+    "calories": 47,
+    "category": "ぐんかん・細巻"
+  },
+  {
+    "id": 87,
     "name": "かにみそ（一貫）",
     "price": 110,
     "calories": 48,
     "category": "ぐんかん・細巻"
   },
   {
-    "id": 78,
+    "id": 88,
     "name": "コーン",
     "price": 110,
     "calories": 169,
     "category": "ぐんかん・細巻"
   },
   {
-    "id": 79,
+    "id": 89,
     "name": "納豆",
     "price": 110,
     "calories": 116,
     "category": "ぐんかん・細巻"
   },
   {
-    "id": 80,
-    "name": "照り焼きチキン",
-    "price": 110,
-    "calories": 139,
-    "category": "ぐんかん・細巻"
-  },
-  {
-    "id": 81,
+    "id": 90,
     "name": "サラダ",
     "price": 110,
     "calories": 178,
     "category": "ぐんかん・細巻"
   },
   {
-    "id": 82,
+    "id": 91,
     "name": "いなり",
     "price": 110,
     "calories": 117,
     "category": "ぐんかん・細巻"
   },
   {
-    "id": 83,
+    "id": 92,
     "name": "きゅうり巻",
     "price": 110,
     "calories": 120,
     "category": "ぐんかん・細巻"
   },
   {
-    "id": 84,
+    "id": 93,
     "name": "かんぴょう巻",
     "price": 110,
     "calories": 149,
     "category": "ぐんかん・細巻"
   },
   {
-    "id": 85,
+    "id": 94,
     "name": "納豆一本巻",
     "price": 110,
     "calories": 160,
     "category": "ぐんかん・細巻"
   },
   {
-    "id": 86,
+    "id": 95,
+    "name": "サーモンえびマヨベイク（一貫）",
+    "price": 120,
+    "calories": 92,
+    "category": "ぐんかん・細巻"
+  },
+  {
+    "id": 96,
+    "name": "明太小柱",
+    "price": 120,
+    "calories": 123,
+    "category": "ぐんかん・細巻"
+  },
+  {
+    "id": 97,
+    "name": "あん肝",
+    "price": 120,
+    "calories": 146,
+    "category": "ぐんかん・細巻"
+  },
+  {
+    "id": 98,
+    "name": "漬けえんがわ軍艦",
+    "price": 120,
+    "calories": 137,
+    "category": "ぐんかん・細巻"
+  },
+  {
+    "id": 99,
+    "name": "チキンタルタル",
+    "price": 120,
+    "calories": 219,
+    "category": "ぐんかん・細巻"
+  },
+  {
+    "id": 100,
     "name": "ねぎまぐろ軍艦",
     "price": 120,
     "calories": 115,
     "category": "ぐんかん・細巻"
   },
   {
-    "id": 87,
-    "name": "旨だれまぐろ",
-    "price": 120,
-    "calories": 107,
-    "category": "ぐんかん・細巻"
-  },
-  {
-    "id": 88,
+    "id": 101,
     "name": "海鮮ユッケ",
     "price": 120,
     "calories": 122,
     "category": "ぐんかん・細巻"
   },
   {
-    "id": 89,
+    "id": 102,
     "name": "チャンジャ",
     "price": 120,
     "calories": 98,
     "category": "ぐんかん・細巻"
   },
   {
-    "id": 90,
+    "id": 103,
     "name": "たらマヨ",
     "price": 120,
     "calories": 127,
     "category": "ぐんかん・細巻"
   },
   {
-    "id": 91,
+    "id": 104,
     "name": "いかおくら",
     "price": 120,
     "calories": 87,
     "category": "ぐんかん・細巻"
   },
   {
-    "id": 92,
+    "id": 105,
     "name": "ほたてひもピリ辛わさび",
     "price": 120,
     "calories": 88,
     "category": "ぐんかん・細巻"
   },
   {
-    "id": 93,
+    "id": 106,
     "name": "えびマヨ",
     "price": 120,
     "calories": 182,
     "category": "ぐんかん・細巻"
   },
   {
-    "id": 94,
+    "id": 107,
     "name": "ツナサラダ",
     "price": 120,
     "calories": 163,
     "category": "ぐんかん・細巻"
   },
   {
-    "id": 95,
+    "id": 108,
     "name": "シーフードサラダ",
     "price": 120,
     "calories": 141,
     "category": "ぐんかん・細巻"
   },
   {
-    "id": 96,
+    "id": 109,
     "name": "まぐたく",
     "price": 120,
     "calories": 98,
     "category": "ぐんかん・細巻"
   },
   {
-    "id": 97,
+    "id": 110,
     "name": "まぐたく手巻（一貫）",
     "price": 120,
     "calories": 59,
     "category": "ぐんかん・細巻"
   },
   {
-    "id": 98,
+    "id": 111,
     "name": "明太きゅうり昆布巻",
     "price": 120,
     "calories": 72,
     "category": "ぐんかん・細巻"
   },
   {
-    "id": 99,
+    "id": 112,
     "name": "さばしそ昆布巻",
     "price": 120,
     "calories": 85,
     "category": "ぐんかん・細巻"
   },
   {
-    "id": 100,
+    "id": 113,
     "name": "しんこ巻",
     "price": 120,
     "calories": 141,
     "category": "ぐんかん・細巻"
   },
   {
-    "id": 101,
-    "name": "牛すき焼き風軍艦",
-    "price": 130,
-    "calories": 144,
-    "category": "ぐんかん・細巻"
-  },
-  {
-    "id": 102,
+    "id": 114,
     "name": "ねぎまぐろ鉄火",
     "price": 130,
     "calories": 155,
     "category": "ぐんかん・細巻"
   },
   {
-    "id": 103,
-    "name": "まぐろユッケ",
+    "id": 115,
+    "name": "旨だれまぐろ",
+    "price": 130,
+    "calories": 107,
+    "category": "ぐんかん・細巻"
+  },
+  {
+    "id": 116,
+    "name": "紋甲いかげそ軍艦",
     "price": 140,
+    "calories": 89,
+    "category": "ぐんかん・細巻"
+  },
+  {
+    "id": 117,
+    "name": "かずのこマヨ",
+    "price": 140,
+    "calories": 146,
+    "category": "ぐんかん・細巻"
+  },
+  {
+    "id": 118,
+    "name": "まぐろユッケ",
+    "price": 160,
     "calories": 142,
     "category": "ぐんかん・細巻"
   },
   {
-    "id": 104,
+    "id": 119,
     "name": "うな玉",
     "price": 160,
     "calories": 129,
     "category": "ぐんかん・細巻"
   },
   {
-    "id": 105,
-    "name": "かにマヨ",
-    "price": 160,
-    "calories": 120,
-    "category": "ぐんかん・細巻"
-  },
-  {
-    "id": 106,
+    "id": 120,
     "name": "かにみそ",
     "price": 160,
     "calories": 86,
     "category": "ぐんかん・細巻"
   },
   {
-    "id": 107,
+    "id": 121,
+    "name": "海鮮うに入り軍艦",
+    "price": 180,
+    "calories": 93,
+    "category": "ぐんかん・細巻"
+  },
+  {
+    "id": 122,
     "name": "えび天手巻（一貫）",
     "price": 180,
     "calories": 113,
     "category": "ぐんかん・細巻"
   },
   {
-    "id": 108,
-    "name": "鉄火巻",
+    "id": 123,
+    "name": "カンジャンケジャン",
     "price": 200,
+    "calories": 92,
+    "category": "ぐんかん・細巻"
+  },
+  {
+    "id": 124,
+    "name": "鉄火巻",
+    "price": 220,
     "calories": 136,
     "category": "ぐんかん・細巻"
   },
   {
-    "id": 109,
+    "id": 125,
     "name": "かにユッケ",
     "price": 230,
     "calories": 112,
     "category": "ぐんかん・細巻"
   },
   {
-    "id": 110,
+    "id": 126,
     "name": "いくら",
     "price": 250,
     "calories": 93,
     "category": "ぐんかん・細巻"
   },
   {
-    "id": 111,
-    "name": "ティ二ピンお寿司セット(お皿付き)",
-    "price": 990,
-    "calories": 474,
+    "id": 127,
+    "name": "ランチ 天丼セット あおさ入り赤だし付【平日11時～15時限定】",
+    "price": 500,
+    "calories": 456,
     "category": "サイドメニュー"
   },
   {
-    "id": 112,
-    "name": "特上うな丼",
-    "price": 1550,
-    "calories": 722,
+    "id": 128,
+    "name": "ランチ 天丼セット あおさ入り味噌汁付【平日11時～15時限定】",
+    "price": 500,
+    "calories": 456,
     "category": "サイドメニュー"
   },
   {
-    "id": 113,
-    "name": "うな丼",
-    "price": 900,
-    "calories": 532,
+    "id": 129,
+    "name": "ランチ 天丼セット 特製茶碗蒸し付【平日11時～15時限定】",
+    "price": 500,
+    "calories": 476,
     "category": "サイドメニュー"
   },
   {
-    "id": 114,
-    "name": "旬の海鮮丼 平日限定17時まで",
-    "price": 660,
-    "calories": 462,
+    "id": 130,
+    "name": "ランチ うな丼セット あおさ入り赤だし付【平日11時～15時限定】",
+    "price": 500,
+    "calories": 356,
     "category": "サイドメニュー"
   },
   {
-    "id": 115,
-    "name": "えび天と季節の天丼 平日限定17時まで",
-    "price": 720,
-    "calories": 730,
+    "id": 131,
+    "name": "ランチ うな丼セット あおさ入り味噌汁付【平日11時～15時限定】",
+    "price": 500,
+    "calories": 356,
     "category": "サイドメニュー"
   },
   {
-    "id": 116,
+    "id": 132,
+    "name": "ランチ うな丼セット 特製茶碗蒸し付【平日11時～15時限定】",
+    "price": 500,
+    "calories": 376,
+    "category": "サイドメニュー"
+  },
+  {
+    "id": 133,
+    "name": "ランチ 天丼【平日11時～15時限定】",
+    "price": 380,
+    "calories": 409,
+    "category": "サイドメニュー"
+  },
+  {
+    "id": 134,
+    "name": "ランチ うな丼【平日11時～15時限定】",
+    "price": 380,
+    "calories": 309,
+    "category": "サイドメニュー"
+  },
+  {
+    "id": 135,
+    "name": "【北海道名産】濃厚味噌バターコーンらーめん",
+    "price": 540,
+    "calories": 460,
+    "category": "サイドメニュー"
+  },
+  {
+    "id": 136,
     "name": "7種の魚介 醤油らーめん（味玉有り）",
     "price": 540,
     "calories": 286,
     "category": "サイドメニュー"
   },
   {
-    "id": 117,
+    "id": 137,
     "name": "7種の魚介 醤油らーめん（味玉無し）",
     "price": 480,
     "calories": 259,
     "category": "サイドメニュー"
   },
   {
-    "id": 118,
+    "id": 138,
     "name": "7種の魚介 濃厚味噌らーめん（味玉有り）",
     "price": 540,
     "calories": 285,
     "category": "サイドメニュー"
   },
   {
-    "id": 119,
+    "id": 139,
     "name": "7種の魚介 濃厚味噌らーめん（味玉無し）",
     "price": 480,
     "calories": 258,
     "category": "サイドメニュー"
   },
   {
-    "id": 120,
+    "id": 140,
     "name": "胡麻香る担々麺",
     "price": 540,
     "calories": 423,
     "category": "サイドメニュー"
   },
   {
-    "id": 121,
-    "name": "かにとえびのクリームまぜそば",
-    "price": 580,
-    "calories": 382,
-    "category": "サイドメニュー"
-  },
-  {
-    "id": 122,
+    "id": 141,
     "name": "天然だしうどん",
     "price": 250,
     "calories": 227,
     "category": "サイドメニュー"
   },
   {
-    "id": 123,
-    "name": "【讃岐】釜揚げうどん",
-    "price": 360,
-    "calories": 236,
-    "category": "サイドメニュー"
-  },
-  {
-    "id": 124,
-    "name": "【讃岐】特製たまご醤油うどん",
-    "price": 360,
-    "calories": 235,
-    "category": "サイドメニュー"
-  },
-  {
-    "id": 125,
+    "id": 142,
     "name": "きつねうどん",
     "price": 500,
     "calories": 292,
     "category": "サイドメニュー"
   },
   {
-    "id": 126,
+    "id": 143,
     "name": "えび天うどん",
     "price": 530,
     "calories": 274,
     "category": "サイドメニュー"
   },
   {
-    "id": 127,
+    "id": 144,
     "name": "純味噌汁",
     "price": 210,
     "calories": 32,
     "category": "サイドメニュー"
   },
   {
-    "id": 128,
+    "id": 145,
     "name": "純赤だし",
     "price": 210,
     "calories": 43,
     "category": "サイドメニュー"
   },
   {
-    "id": 129,
+    "id": 146,
     "name": "あさり入り 味噌汁",
     "price": 280,
     "calories": 42,
     "category": "サイドメニュー"
   },
   {
-    "id": 130,
+    "id": 147,
     "name": "あさり入り 赤だし",
     "price": 280,
     "calories": 52,
     "category": "サイドメニュー"
   },
   {
-    "id": 131,
+    "id": 148,
     "name": "あおさ入り 味噌汁",
     "price": 280,
     "calories": 51,
     "category": "サイドメニュー"
   },
   {
-    "id": 132,
+    "id": 149,
     "name": "あおさ入り 赤だし",
     "price": 280,
     "calories": 62,
     "category": "サイドメニュー"
   },
   {
-    "id": 133,
+    "id": 150,
     "name": "くら出汁",
     "price": 170,
     "calories": 20,
     "category": "サイドメニュー"
   },
   {
-    "id": 134,
+    "id": 151,
     "name": "熟成まぐろ(シャリなし)",
     "price": 200,
     "calories": 37,
     "category": "サイドメニュー"
   },
   {
-    "id": 135,
+    "id": 152,
     "name": "サーモン(シャリなし)",
     "price": 200,
     "calories": 54,
     "category": "サイドメニュー"
   },
   {
-    "id": 136,
+    "id": 153,
     "name": "ゆず塩かつおたたき(シャリなし)",
     "price": 200,
     "calories": 48,
     "category": "サイドメニュー"
   },
   {
-    "id": 137,
+    "id": 154,
+    "name": "魚介ユッケ",
+    "price": 270,
+    "calories": 136,
+    "category": "サイドメニュー"
+  },
+  {
+    "id": 155,
     "name": "特製茶碗蒸し",
     "price": 250,
     "calories": 67,
     "category": "サイドメニュー"
   },
   {
-    "id": 138,
+    "id": 156,
     "name": "松茸あんかけ茶碗蒸し",
     "price": 380,
     "calories": 78,
     "category": "サイドメニュー"
   },
   {
-    "id": 139,
-    "name": "マラコフ",
+    "id": 157,
+    "name": "ダブルス",
     "price": 240,
-    "calories": 241,
+    "calories": 161,
     "category": "サイドメニュー"
   },
   {
-    "id": 140,
-    "name": "ハーリング",
+    "id": 158,
+    "name": "スモーブロー",
     "price": 240,
-    "calories": 65,
+    "calories": 141,
     "category": "サイドメニュー"
   },
   {
-    "id": 141,
+    "id": 159,
     "name": "紫キャベツの酢漬け",
     "price": 120,
     "calories": 24,
     "category": "サイドメニュー"
   },
   {
-    "id": 142,
+    "id": 160,
     "name": "彩り野菜のピクルス",
     "price": 120,
     "calories": 24.8,
     "category": "サイドメニュー"
   },
   {
-    "id": 143,
+    "id": 161,
     "name": "えびブロッコリーサラダ",
     "price": 120,
     "calories": 59.3,
     "category": "サイドメニュー"
   },
   {
-    "id": 144,
+    "id": 162,
     "name": "黒ごま豆乳ぷりん",
     "price": 120,
     "calories": 60.3,
     "category": "サイドメニュー"
   },
   {
-    "id": 145,
+    "id": 163,
     "name": "海藻サラダ",
     "price": 120,
     "calories": 12.7,
     "category": "サイドメニュー"
   },
   {
-    "id": 146,
+    "id": 164,
     "name": "沖縄もずく",
     "price": 120,
     "calories": 40.9,
     "category": "サイドメニュー"
   },
   {
-    "id": 147,
+    "id": 165,
     "name": "【山形産ハーブ鶏使用】チキンサラダ",
     "price": 120,
     "calories": 36,
     "category": "サイドメニュー"
   },
   {
-    "id": 148,
+    "id": 166,
     "name": "優しいトマト",
     "price": 120,
     "calories": 9.6,
     "category": "サイドメニュー"
   },
   {
-    "id": 149,
+    "id": 167,
     "name": "まぐろ 野菜包み",
     "price": 130,
     "calories": 35.7,
     "category": "サイドメニュー"
   },
   {
-    "id": 150,
+    "id": 168,
     "name": "サーモン 野菜包み",
     "price": 130,
     "calories": 47.2,
     "category": "サイドメニュー"
   },
   {
-    "id": 151,
+    "id": 169,
     "name": "くらポテト",
     "price": 210,
     "calories": 211,
     "category": "サイドメニュー"
   },
   {
-    "id": 152,
-    "name": "ふりふりくらポテト(コンソメ)",
-    "price": 280,
-    "calories": 220,
-    "category": "サイドメニュー"
-  },
-  {
-    "id": 153,
+    "id": 170,
     "name": "くらポテト メガ",
     "price": 380,
     "calories": 422,
     "category": "サイドメニュー"
   },
   {
-    "id": 154,
+    "id": 171,
     "name": "ハッシュドポテト",
     "price": 150,
     "calories": 203,
     "category": "サイドメニュー"
   },
   {
-    "id": 155,
+    "id": 172,
     "name": "ミニころチキン",
     "price": 170,
     "calories": 149,
     "category": "サイドメニュー"
   },
   {
-    "id": 156,
+    "id": 173,
+    "name": "まぐろ竜田揚げ",
+    "price": 170,
+    "calories": 131,
+    "category": "サイドメニュー"
+  },
+  {
+    "id": 174,
     "name": "オニオンリング",
     "price": 190,
     "calories": 103,
     "category": "サイドメニュー"
   },
   {
-    "id": 157,
+    "id": 175,
     "name": "とうもろこしのかき揚げ",
     "price": 190,
     "calories": 194,
     "category": "サイドメニュー"
   },
   {
-    "id": 158,
-    "name": "揚げたこ焼き(ソース)",
-    "price": 230,
-    "calories": 334,
-    "category": "サイドメニュー"
-  },
-  {
-    "id": 159,
-    "name": "サーモンスティック",
-    "price": 190,
-    "calories": 248,
-    "category": "サイドメニュー"
-  },
-  {
-    "id": 160,
+    "id": 176,
     "name": "ミニピザまん",
     "price": 190,
     "calories": 126,
     "category": "サイドメニュー"
   },
   {
-    "id": 161,
-    "name": "なんこつ唐揚げ",
-    "price": 280,
-    "calories": 150,
-    "category": "サイドメニュー"
-  },
-  {
-    "id": 162,
+    "id": 177,
     "name": "から揚げユーリンチーソース",
     "price": 380,
     "calories": 240,
     "category": "サイドメニュー"
   },
   {
-    "id": 163,
+    "id": 178,
+    "name": "えびと季節の天ぷら盛合せ",
+    "price": 380,
+    "calories": 239,
+    "category": "サイドメニュー"
+  },
+  {
+    "id": 179,
+    "name": "かに甲羅グラタン",
+    "price": 580,
+    "calories": 201,
+    "category": "サイドメニュー"
+  },
+  {
+    "id": 180,
     "name": "スーパードライ(生)",
     "price": 630,
     "calories": 160,
     "category": "サイドメニュー"
   },
   {
-    "id": 164,
+    "id": 181,
     "name": "マルエフ(生)",
     "price": 630,
     "calories": 156,
     "category": "サイドメニュー"
   },
   {
-    "id": 165,
+    "id": 182,
     "name": "ノンアルコールビール",
     "price": 500,
     "calories": 27,
     "category": "サイドメニュー"
   },
   {
-    "id": 166,
+    "id": 183,
     "name": "冷酒無添蔵",
     "price": 690,
     "calories": 200,
     "category": "サイドメニュー"
   },
   {
-    "id": 167,
+    "id": 184,
     "name": "越乃雪椿 無添蔵 秋限定",
     "price": 780,
     "calories": 204,
     "category": "サイドメニュー"
   },
   {
-    "id": 168,
+    "id": 185,
     "name": "ハイボール",
     "price": 530,
     "calories": 69,
     "category": "サイドメニュー"
   },
   {
-    "id": 169,
-    "name": "きゃらめるりんごチーズケーキ",
-    "price": 500,
-    "calories": 259,
+    "id": 186,
+    "name": "蜜芋ブリュレパフェ",
+    "price": 540,
+    "calories": 362,
     "category": "デザート"
   },
   {
-    "id": 170,
-    "name": "ストロベリーヨアボ",
-    "price": 450,
-    "calories": 149,
+    "id": 187,
+    "name": "おうとうのピーチマンゴーフラッペ",
+    "price": 400,
+    "calories": 221,
     "category": "デザート"
   },
   {
-    "id": 171,
-    "name": "つぶつぶいちごミルク",
-    "price": 450,
-    "calories": 197,
+    "id": 188,
+    "name": "カラメルりんごデニッシュ",
+    "price": 390,
+    "calories": 228,
     "category": "デザート"
   },
   {
-    "id": 172,
-    "name": "豆乳グリーンスムージー",
-    "price": 300,
-    "calories": 96,
+    "id": 189,
+    "name": "カステラ",
+    "price": 150,
+    "calories": 101,
     "category": "デザート"
   },
   {
-    "id": 173,
-    "name": "チョコレート（カカオ80％）",
-    "price": 120,
-    "calories": 54,
+    "id": 190,
+    "name": "エクレア",
+    "price": 150,
+    "calories": 115,
     "category": "デザート"
   },
   {
-    "id": 174,
-    "name": "ココナッツチョコケーキ",
-    "price": 330,
-    "calories": 150,
+    "id": 191,
+    "name": "揚げたい焼き",
+    "price": 180,
+    "calories": 352,
     "category": "デザート"
   },
   {
-    "id": 175,
-    "name": "干し柿のパウンドケーキ",
-    "price": 360,
-    "calories": 188,
+    "id": 192,
+    "name": "【グアテマラ産】コーヒーゼリー",
+    "price": 150,
+    "calories": 48,
     "category": "デザート"
   },
   {
-    "id": 176,
+    "id": 193,
     "name": "ぷるぷるおばけゼリー",
     "price": 240,
     "calories": 89,
     "category": "デザート"
   },
   {
-    "id": 177,
-    "name": "洋梨のパンナコッタ",
-    "price": 280,
-    "calories": 148,
+    "id": 194,
+    "name": "マンゴー杏仁豆腐",
+    "price": 240,
+    "calories": 127,
     "category": "デザート"
   },
   {
-    "id": 178,
+    "id": 195,
     "name": "別腹ちょこっとほうじ茶パフェ",
     "price": 310,
     "calories": 172,
     "category": "デザート"
   },
   {
-    "id": 179,
+    "id": 196,
     "name": "感動のぷりん",
     "price": 240,
-    "calories": 197,
+    "calories": 190,
     "category": "デザート"
   },
   {
-    "id": 180,
-    "name": "パパロティ",
+    "id": 197,
+    "name": "アホ",
     "price": 240,
-    "calories": 222,
+    "calories": 139,
     "category": "デザート"
   },
   {
-    "id": 181,
+    "id": 198,
     "name": "カットパイン",
     "price": 220,
     "calories": 43,
     "category": "デザート"
   },
   {
-    "id": 182,
+    "id": 199,
     "name": "完熟アップルマンゴー",
     "price": 440,
     "calories": 88,
     "category": "デザート"
   },
   {
-    "id": 183,
+    "id": 200,
+    "name": "チョコレート（カカオ80％）",
+    "price": 120,
+    "calories": 54,
+    "category": "デザート"
+  },
+  {
+    "id": 201,
     "name": "ミルキーミルクレープ",
     "price": 330,
     "calories": 272,
     "category": "デザート"
   },
   {
-    "id": 184,
+    "id": 202,
     "name": "ミルクレープ",
     "price": 330,
     "calories": 230,
     "category": "デザート"
   },
   {
-    "id": 185,
+    "id": 203,
     "name": "チョコケーキ",
     "price": 200,
     "calories": 107,
     "category": "デザート"
   },
   {
-    "id": 186,
+    "id": 204,
     "name": "チーズケーキ",
     "price": 200,
     "calories": 81,
     "category": "デザート"
   },
   {
-    "id": 187,
+    "id": 205,
     "name": "プリンタルト",
     "price": 200,
     "calories": 156,
     "category": "デザート"
   },
   {
-    "id": 188,
+    "id": 206,
     "name": "大学芋スティック",
     "price": 140,
     "calories": 138,
     "category": "デザート"
   },
   {
-    "id": 189,
+    "id": 207,
     "name": "京わらびもち",
     "price": 140,
     "calories": 168,
     "category": "デザート"
   },
   {
-    "id": 190,
+    "id": 208,
     "name": "くらだんご みたらし",
     "price": 170,
     "calories": 141,
     "category": "デザート"
   },
   {
-    "id": 191,
-    "name": "くらだんご おいもあん",
-    "price": 230,
-    "calories": 146,
-    "category": "デザート"
-  },
-  {
-    "id": 192,
+    "id": 209,
     "name": "リッチミルクアイス",
     "price": 330,
     "calories": 145,
     "category": "デザート"
   },
   {
-    "id": 193,
+    "id": 210,
+    "name": "濃厚バニラアイス",
+    "price": 210,
+    "calories": 84,
+    "category": "デザート"
+  },
+  {
+    "id": 211,
     "name": "チョコアイス",
     "price": 210,
     "calories": 42,
     "category": "デザート"
   },
   {
-    "id": 194,
+    "id": 212,
     "name": "巨峰シャーベット",
     "price": 210,
     "calories": 53,
     "category": "デザート"
   },
   {
-    "id": 195,
-    "name": "夢のべジふわ雪® いちご＆トマト",
-    "price": 250,
-    "calories": 106,
-    "category": "デザート"
-  },
-  {
-    "id": 196,
-    "name": "夢のべジふわ雪® オレンジ＆キャロット",
-    "price": 250,
-    "calories": 86,
-    "category": "デザート"
-  },
-  {
-    "id": 197,
-    "name": "夢のべジふわ雪® グリーンスムージー",
-    "price": 250,
-    "calories": 89,
-    "category": "デザート"
-  },
-  {
-    "id": 198,
+    "id": 213,
     "name": "夢のふわ雪® 豊潤いちご",
     "price": 440,
     "calories": 130,
     "category": "デザート"
   },
   {
-    "id": 199,
+    "id": 214,
     "name": "塩せんべいうすやき",
     "price": 240,
     "calories": 138,
     "category": "デザート"
   },
   {
-    "id": 200,
+    "id": 215,
     "name": "醬油せんべいうすやき",
     "price": 240,
     "calories": 123,
     "category": "デザート"
   },
   {
-    "id": 201,
+    "id": 216,
     "name": "【無添】コーラ",
     "price": 250,
     "calories": 108,
     "category": "デザート"
   },
   {
-    "id": 202,
+    "id": 217,
     "name": "ぶどうサイダー",
     "price": 250,
     "calories": 62,
     "category": "デザート"
   },
   {
-    "id": 203,
+    "id": 218,
     "name": "オレンジ",
     "price": 250,
     "calories": 75,
     "category": "デザート"
   },
   {
-    "id": 204,
+    "id": 219,
     "name": "りんご",
     "price": 250,
     "calories": 82,
     "category": "デザート"
   },
   {
-    "id": 205,
+    "id": 220,
     "name": "宇治抹茶入り緑茶",
     "price": 170,
     "calories": 3,
     "category": "デザート"
   },
   {
-    "id": 206,
+    "id": 221,
     "name": "乳酸菌ウォーター",
     "price": 170,
     "calories": 76,
     "category": "デザート"
   },
   {
-    "id": 207,
+    "id": 222,
     "name": "プレミアホット珈琲",
     "price": 190,
     "calories": 28,
     "category": "デザート"
   },
   {
-    "id": 208,
+    "id": 223,
     "name": "プレミアアイス珈琲",
     "price": 190,
     "calories": 36,
     "category": "デザート"
   },
   {
-    "id": 209,
+    "id": 224,
     "name": "プレミアホットラテ",
     "price": 220,
     "calories": 83,
     "category": "デザート"
   },
   {
-    "id": 210,
+    "id": 225,
     "name": "プレミアアイスラテ",
     "price": 220,
     "calories": 92,
